@@ -1,0 +1,9 @@
+# http://symfony.com/doc/current/components/routing/introduction.html
+home:
+    path: /
+    defaults: { _controller: 'Controller\Home::get' }
+    methods: [GET]
+
+user:
+    prefix: /user
+    resource: routes.user.yml
