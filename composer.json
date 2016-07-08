@@ -1,5 +1,5 @@
 {
-  "name": "SilexFriends/Router",
+  "name": "silexfriends/router",
   "description": "A simple router provider to Silex with YAML",
   "type": "library",
   "license": "MIT",
