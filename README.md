@@ -10,7 +10,7 @@
 # Install
 
 ```
-composer require mrprompt/silex-router-provider
+composer require SilexFriends/Router
 ```
 
 ## Testing

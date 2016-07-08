@@ -5,9 +5,9 @@
  *
  * @license MIT
  */
-namespace MrPrompt\Tests\Silex\Router;
+namespace SilexFriends\Tests\Router\Router;
 
-use MrPrompt\Silex\Router\Router;
+use SilexFriends\Router\Router;
 use PHPUnit_Framework_TestCase;
 use Silex\Application;
 use Symfony\Component\Routing\RouteCollection;

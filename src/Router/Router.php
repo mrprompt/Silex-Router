@@ -5,7 +5,7 @@
  *
  * @license MIT
  */
-namespace MrPrompt\Silex\Router;
+namespace SilexFriends\Router;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

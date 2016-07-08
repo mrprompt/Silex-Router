@@ -1,5 +1,5 @@
 {
-  "name": "mrprompt/silex-router-provider",
+  "name": "SilexFriends/Router",
   "description": "A simple router provider to Silex with YAML",
   "type": "library",
   "license": "MIT",
@@ -13,8 +13,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "MrPrompt\\Silex\\Router\\": "src/Router/",
-      "MrPrompt\\Tests\\Silex\\Router\\": "tests/Router/"
+      "SilexFriends\\Router\\": "src/Router/",
+      "SilexFriends\\Tests\\Router\\": "tests/Router/"
     }
   },
   "require": {
