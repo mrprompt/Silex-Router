@@ -56,7 +56,7 @@ class RouterTest extends PHPUnit_Framework_TestCase
      */
     public function registerMustBeCreateResources()
     {
-        $this->app->register(new Router(__DIR__ . '/../routes/routes.yml'));
+        $this->app->register(new Router(__DIR__ . '/routes/routes.yml'));
 
         $this->assertArrayHasKey('routes', $this->app);
         $this->assertInstanceOf(RouteCollection::class, $this->app['routes']);

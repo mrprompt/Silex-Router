@@ -1,5 +1,5 @@
 {
-  "name": "silexfriends/router",
+  "name": "mrprompt/silex-router-provider",
   "description": "A simple router provider to Silex with YAML",
   "type": "library",
   "license": "MIT",
@@ -13,8 +13,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "SilexFriends\\Router\\": "src/Router/",
-      "SilexFriends\\Tests\\Router\\": "tests/Router/"
+      "SilexFriends\\Router\\": "src/",
+      "SilexFriends\\Tests\\Router\\": "tests/"
     }
   },
   "require": {
@@ -23,6 +23,7 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8",
-    "silex/silex": "1.*@dev"
+    "silex/silex": "1.*@dev",
+    "codeclimate/php-test-reporter": "dev-master"
   }
 }
